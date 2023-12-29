@@ -10,7 +10,8 @@ public class Main {
             sum = sum + age;
             count++;
         }
-        System.out.printf("%.2f",(float)sum/count);
+        float avg = (float)sum/count;
+        System.out.printf("%.2f",avg);
 
     }
 }
