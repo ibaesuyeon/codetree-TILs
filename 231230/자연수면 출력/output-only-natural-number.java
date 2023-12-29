@@ -10,6 +10,7 @@ public class Main {
                 System.out.print(a);
                 i++;
             }
-        }
+        } else System.out.println(0);
+
     }
 }
