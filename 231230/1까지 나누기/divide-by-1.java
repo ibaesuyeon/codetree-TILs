@@ -4,9 +4,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int i=0;
-        while ( n>=1) {
+        while (true) {
             i++;    
             n=n/i;
+            if ( n <= 1) break;
         }
         System.out.println(i);
 
