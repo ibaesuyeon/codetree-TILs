@@ -4,13 +4,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int i = 0;
-        while (i<=a) {
-            if(!(i%2 == 0 && i%4 !=0)) {
-                if(!((i/8)%2 == 0)) {
-                    if(!((i%7)<4)) System.out.print(i+" ");
-                }
-            }
+        while (i<a) {
             i++;
+            if ( i%2 == 0 && i%4 != 0) continue;
+            if ((i/8)%2 == 0) continue;
+            if ((i%7) < 4 ) continue;
+            System.out.print(i+" ");
         }
     }
 }
