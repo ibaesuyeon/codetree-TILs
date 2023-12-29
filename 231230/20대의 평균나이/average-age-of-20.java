@@ -6,7 +6,7 @@ public class Main {
         int count=0;
         while(true) {
             int age = sc.nextInt();
-            if (age >29) break;
+            if (age >29 || age <20) break;
             sum = sum + age;
             count++;
         }
