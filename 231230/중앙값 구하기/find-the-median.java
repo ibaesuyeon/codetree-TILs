@@ -11,7 +11,7 @@ public class Main {
             else if ( a < c) med = c;
             else med = a; 
         } else {
-            if (a < c) med = c;
+            if (a < c) med = a;
             else if ( b < c) med = c;
             else med = b;
         }
