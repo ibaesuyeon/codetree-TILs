@@ -4,11 +4,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
+        int res = 0;
         for(int i = a; i<=b; i++) {
             if ( 1920%i == 0 && 2880%i == 0){
-                System.out.println(1); break;
-            } else
-                System.out.println(0); break;
-        }   
+                res = 1;
+            }
+        }
+        System.out.println(res);
     }
 }
