@@ -7,9 +7,8 @@ public class Main {
         for(int i = a; i<=b; i++) {
             if ( 1920%i == 0 && 2880%i == 0){
                 System.out.println(1); break;
-            } 
-            System.out.println(0);
-
+            } else
+                System.out.println(0); break;
         }   
     }
 }
